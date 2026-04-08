@@ -4,6 +4,7 @@ import { Search } from 'lucide-react';
 
 const SearchBar = () => {
   const [query, setQuery] = useState('');
+  const [isFocused, setIsFocused] = useState(false);
   const { handleSearch } = usePlayer();
 
   const onSubmit = (e) => {
@@ -12,16 +13,22 @@ const SearchBar = () => {
   };
 
   return (
-    <form onSubmit={onSubmit} className="relative w-full md:w-80">
+    <form onSubmit={onSubmit} className="relative w-full md:w-80 group animate-fade-in">
+      <div className={`absolute inset-0 bg-blue-500/20 rounded-full blur-md transition-opacity duration-300 ${isFocused ? 'opacity-100' : 'opacity-0'}`}></div>
       <input
         type="text"
         placeholder="Search for songs or artists..."
-        className="w-full bg-gray-800 text-white rounded-full py-2 pl-4 pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="relative w-full bg-gray-800/80 backdrop-blur-sm text-white rounded-full py-2.5 pl-5 pr-12 border border-gray-700/50 focus:border-blue-500/50 focus:outline-none transition-all duration-300 placeholder-gray-500 shadow-inner"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        onFocus={() => setIsFocused(true)}
+        onBlur={() => setIsFocused(false)}
       />
-      <button type="submit" className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white">
-        <Search size={18} />
+      <button 
+        type="submit" 
+        className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center rounded-full text-gray-400 hover:text-white hover:bg-gray-700 transition-all duration-200 z-10"
+      >
+        <Search size={16} />
       </button>
     </form>
   );
