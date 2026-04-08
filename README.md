@@ -19,7 +19,7 @@
     <a href="#getting-started"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://yasirawaninfodev.vercel.app/">View Live Demo</a>
+    <a href="https://yasirawaninfomusic.vercel.app/">View Live Demo</a>
     ·
     <a href="https://github.com/YasirAwan4831/arch-Technologies-internship-task3-music-player/issues">Report Bug</a>
     ·
@@ -51,6 +51,10 @@
 - **🏷️ Smart Categorization**: Quickly switch moods ranging from 'Trending' to 'Acoustic' with slick animated filter pills.
 - **⚡ Blazing Fast Architecture**: Zero loading delays enabled by Vite's world-class tooling.
 
+---
+## ive Link:  
+https://yasirawaninfomusic.vercel.app/
+   
 ---
 
 ## 🚀 Getting Started
@@ -147,9 +151,9 @@ Contributions are what make the open source community such an amazing place to l
 
 **Muhammad Yasir**
 
-💻 [**Portfolio**](https://yasirawaninfodev.vercel.app/)  ·  🔗 [**LinkedIn**](https://www.linkedin.com/in/yasirawan4831/)  ·  🐦 [**Twitter (X)**](https://x.com/YasirAwan4831)  ·  🐱 [**GitHub**](https://github.com/YasirAwan4831)
+💻 [**Portfolio**](https://yasirawaninfo.vercel.app/)  ·  🔗 [**LinkedIn**](https://www.linkedin.com/in/yasirawan4831/)  ·  🐦 [**Twitter (X)**](https://x.com/YasirAwan4831)  ·  🐱 [**GitHub**](https://github.com/YasirAwan4831)
 
-*Designed & developed with ❤️ alongside ARCH Technologies*
+*Designed & developed By [Muhammad Yasir](https://yasirawaninfo.vercel.app/) at ARCH Technologies*
 </div>
 
 <br />
