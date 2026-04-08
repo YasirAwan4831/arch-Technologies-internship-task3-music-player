@@ -90,30 +90,39 @@ Ensure you have Node.js and NPM installed.
 
 ```text
 arch-music-player/
-├── src/
-│   ├── components/
-│   │   ├── About.jsx            # Animated glassmorphic about module
-│   │   ├── CategoryFilter.jsx   # Horizontal dynamic genre pills
-│   │   ├── Controls.jsx         # Custom audio control interface
-│   │   ├── Footer.jsx           # Global sticky animated footer
-│   │   ├── Header.jsx           # Branding & search top-bar
-│   │   ├── Player.jsx           # Fixed-bottom active song view 
-│   │   ├── Playlist.jsx         # Display grid with visual equalizer
-│   │   └── SearchBar.jsx        # Smart search input tracking
-│   ├── context/
-│   │   └── PlayerContext.jsx    # Global state for music sync
-│   ├── hooks/
-│   │   └── useAudio.js          # Core native Audio logic wrapper
-│   ├── services/
-│   │   └── musicApi.js          # External iTunes data fetching
-│   ├── utils/
-│   │   └── helpers.js           # Math & parsing utilities
-│   ├── App.jsx                  # Master component scaffold
-│   ├── main.jsx                 # Strict mode DOM injector
-│   └── index.css                # Global Tailwind directives
-├── public/                      # Static raw assets
-├── tailwind.config.js           # Themed animation injections
-└── vite.config.js               # Dev server pipeline
+├─ public/
+│  └─ images/
+│     └─ .gitkeep
+├─ src/
+│  ├─ components/
+│  │  ├─ About.jsx
+│  │  ├─ CategoryFilter.jsx
+│  │  ├─ Controls.jsx
+│  │  ├─ Footer.jsx
+│  │  ├─ Header.jsx
+│  │  ├─ Player.jsx
+│  │  ├─ Playlist.jsx
+│  │  └─ SearchBar.jsx
+│  ├─ context/
+│  │  └─ PlayerContext.jsx
+│  ├─ hooks/
+│  │  └─ useAudio.js
+│  ├─ services/
+│  │  └─ musicApi.js
+│  ├─ utils/
+│  │  └─ helpers.js
+│  ├─ App.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ .gitignore
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ README.md
+├─ tailwind.config.js
+└─ vite.config.js
+
 ```
 
 <br />
