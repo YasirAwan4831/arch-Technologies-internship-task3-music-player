@@ -11,14 +11,14 @@ const Footer = () => {
             © 2026 Muhammad Yasir. All rights reserved.
           </p>
           <p className="text-xs text-gray-500 mt-1.5 flex items-center justify-center md:justify-start gap-1">
-            Designed & developed with <Heart size={12} className="text-red-500 fill-red-500" /> by 
+            Designed & developed By 
             <a 
               href="https://yasirawaninfodev.vercel.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300 transition-colors ml-1 font-medium hover:underline underline-offset-2"
             >
-              M.Yasir
+              Muhammad Yasir
             </a>
           </p>
         </div>
