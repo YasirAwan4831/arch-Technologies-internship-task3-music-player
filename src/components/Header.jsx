@@ -10,7 +10,7 @@ const Header = () => {
           <Music size={20} className="text-white group-hover:scale-110 transition-transform duration-300" />
         </div>
         <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent group-hover:to-white transition-colors duration-300">
-          Arch Music
+          Yasir Music
         </h1>
       </div>
       
