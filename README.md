@@ -5,15 +5,16 @@
   </a>
 
   <h1 align="center">
-    <a href="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=40&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Arch+Music+Player+🎵;Modern.+Fast.+Sleek.;Immersive+Audio+Experience">
-        <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=40&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Arch+Music+Player+🎵;Modern.+Fast.+Sleek.;Immersive+Audio+Experience" alt="Typing SVG" />
+    <a href="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=40&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Yasir+Music+Player+🎵;Modern.+Fast.+Sleek.;Immersive+Audio+Experience">
+        <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=40&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Yasir+Music+Player+🎵;Modern.+Fast.+Sleek.;Immersive+Audio+Experience" alt="Typing SVG" />
     </a>
   </h1>
+
 
   <p align="center">
     <strong>Task 3 for ARCH Technologies Internship</strong>
     <br />
-    A beautifully crafted, modern web-based music application built with React, Vite, and Tailwind CSS.
+    A beautifully crafted, modern web-based music application built with React, Vite and Tailwind CSS.
     <br />
     <br />
     <a href="#getting-started"><strong>Explore the docs »</strong></a>
@@ -40,24 +41,27 @@
 
 ## 🌟 About The Project
 
-> **Arch Music** bridges the gap between minimalist aesthetic design and robust audio streaming logic. Developed natively with the iTunes Music SDK logic, it aims to deliver crisp previews with unparalleled frontend performance.
+> **Yasir Music** bridges the gap between minimalist aesthetic design and robust audio streaming logic. Developed natively with the iTunes Music SDK logic, it aims to deliver crisp previews with unparalleled frontend performance.
 
 ### ✨ Dynamic Features
 
-- **🎨 Glassmorphism & Minimal UI**: Smooth transitions, sophisticated micro-animations, and beautifully animated interactions integrated right into the components.
+- **🎨 Glassmorphism & Minimal UI**: Smooth transitions, sophisticated micro-animations and beautifully animated interactions integrated right into the components.
 - **🔍 Intelligent Search**: Seamlessly find your favorite tracks and artists via the integrated iTunes Search API.
-- **🎛️ Complete Audio Controls**: Play, pause, volume sliders, precise timeline seeking, and automatic queue progression.
+- **🎛️ Complete Audio Controls**: Play, pause, volume sliders, precise timeline seeking and automatic queue progression.
 - **📊 Visual Equalizers**: Real-time bouncing equalizer indicators attached directly to the actively playing track to simulate immersive feedback.
 - **🏷️ Smart Categorization**: Quickly switch moods ranging from 'Trending' to 'Acoustic' with slick animated filter pills.
 - **⚡ Blazing Fast Architecture**: Zero loading delays enabled by Vite's world-class tooling.
 
 ---
-## ive Link:  
-https://yasirawaninfomusic.vercel.app/
-   
+## 🌐 Live Demo
+
+🔗 https://yasirawaninfomusic.vercel.app/
+
+
 ---
 
-## 🚀 Getting Started
+
+##  Getting Started
 
 Follow these instructions to get a copy of the project up and running smoothly on your local machine for development and testing purposes.
 
@@ -77,7 +81,7 @@ Ensure you have Node.js and NPM installed.
    ```
 2. **Navigate to the directory**
    ```sh
-   cd arch-music-player
+   cd yasir-music-player
    ```
 3. **Install NPM packages**
    ```sh
@@ -93,7 +97,7 @@ Ensure you have Node.js and NPM installed.
 ## 📂 Project Structure
 
 ```text
-arch-music-player/
+Yasir-music-player/
 ├─ public/
 │  └─ images/
 │     └─ .gitkeep
@@ -135,7 +139,7 @@ arch-music-player/
 
 ## 🤝 Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
